@@ -1,20 +1,24 @@
 export const sidebarLinks = [
   {
+    id: 1,
     imgURL: "/icons/home.svg",
     route: "/",
     label: "Home",
   },
   {
+    id: 2,
     imgURL: "/icons/dollar-circle.svg",
     route: "/my-banks",
     label: "My Banks",
   },
   {
+    id: 3,
     imgURL: "/icons/transaction.svg",
     route: "/transaction-history",
     label: "Transaction History",
   },
   {
+    id: 4,
     imgURL: "/icons/money-send.svg",
     route: "/payment-transfer",
     label: "Transfer Funds",

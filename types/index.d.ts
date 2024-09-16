@@ -150,10 +150,16 @@ declare interface BankInfoProps {
 }
 
 declare interface HeaderBoxProps {
-  type?: "title" | "greeting";
   title: string;
   subtext: string;
+  type?: "title" | "greeting";
   user?: string;
+}
+
+declare interface AnimatedCounterProps {
+  totalBalance: number;
+  prefix?: string;
+  decimal?: string;
 }
 
 declare interface MobileNavProps {
@@ -211,7 +217,7 @@ declare interface TotalBalanceBoxProps {
 
 declare interface FooterProps {
   user: User;
-  type?: 'mobile' | 'desktop'
+  type?: "mobile" | "desktop";
 }
 
 declare interface RightSidebarProps {
